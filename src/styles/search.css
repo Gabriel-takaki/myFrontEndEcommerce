@@ -1,0 +1,182 @@
+*{
+    /* border: 0px; */
+}
+body{
+    /* background: #1c92d2;   */
+/* background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  */
+background: linear-gradient(to right, #246379, #1f2020); 
+}
+
+button{
+    cursor: pointer;
+}
+.page-search{
+    /* background: url("/src/components/images/headphone.jpg"); */
+    /* background-size:cover; */
+    /* background-position:top; */
+    /* background: cover; */
+    /* min-height: 100vh; */
+
+}
+
+.products-vitrine{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    /* height: 650px; */
+    padding-top: 15vh;
+    margin: 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    /* margin-left: auto;
+    margin-right: auto;
+    align-items: center; */
+   text-align: center;
+   display: inline-block;
+   height: 280px;
+   width: 220px;
+   margin: 15px;
+   background-color: rgb(236, 236, 236);
+   box-shadow: 0 2px 4px -4px rgba(0, 0, 0, 0.541), 0 50px 45px -20px rgba(0, 0, 0, .2);
+   overflow: hidden;
+   position: relative;
+   border-radius: 20px;
+   cursor: pointer;
+  } 
+/* .cards {
+    margin: 10%;
+    background-color: aqua;
+} */
+.card-principal{
+/* background-color: rgb(73, 59, 41); */
+align-items: center;
+text-align: center;
+width: 100vw;
+height: 100%;
+align-items: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+  .buy {
+      position: absolute;
+      margin-bottom: 20px;
+      top:110px;
+      left: 50px;
+      height: auto;
+      background-color: rgba(240, 248, 255, 0);
+      border: none;
+  }
+
+  .cartB{
+      height: 0px;
+      width: 0px;
+      cursor: pointer;
+  }
+/* 
+  .buy img:hover{
+    height: 50px;
+    width: 50px;
+} */
+
+.card:hover .cartB {
+    width: 100px;
+    transition-duration: 1s;
+    height: 100px;
+  } 
+
+.card img{
+    width: 100px;
+}
+
+.card:hover{
+    /* margin-left: auto;
+    margin-right: auto;
+    align-items: center; */
+   text-align: center;
+   display: inline-block;
+   height: 275px;
+   width: 215px;
+   margin: 15px;
+   background-color: rgb(236, 236, 236);
+   box-shadow: 0 2px 4px -4px rgba(0, 0, 0, 0.541), 0 50px 45px -20px rgba(0, 0, 0, .2);
+   overflow: hidden;
+   position: relative;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+  } 
+
+  .h1-search{
+      color: rgb(230, 232, 233);
+      text-align: center;
+  }
+
+  .header-search{
+    text-align: center;
+    display: inline-block;
+    width: 100vw;
+  }
+
+  .itens{
+     margin: 15px;
+     background-color: #ffffff00;
+     border: none;
+  }
+  
+  .barra {
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+  }
+
+ .button1{
+     font-size: 2rem;
+ }
+
+ .button2{
+     font-size: 2rem;
+ }
+
+ .delet-product{
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     font-size: 3rem;
+     cursor: pointer;
+ }
+
+ .pay-button{
+     text-align: center;
+     height: 30px;
+     border-radius: 30px;
+     border: none;
+   box-shadow: 0 2px 4px -4px rgba(0, 0, 0, 0.541), 0 50px 45px -20px rgba(0, 0, 0, .2);
+   background-color: #434f53;
+   color: white;
+   font-weight: 700;
+ }
+
+ .pay-button2{
+    text-align: center;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+  box-shadow: 0 2px 4px -4px rgba(0, 0, 0, 0.541), 0 50px 45px -20px rgba(0, 0, 0, .2);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
